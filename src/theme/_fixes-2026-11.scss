@@ -14,3 +14,17 @@
   background: cv('shading.card');
   border-color: transparent;
 }
+
+
+// New "mana" modal component (Forward To and other newer dialogs) — match
+// ClearVision's classic modal look and drop the opaque scroll fades.
+.container_dvN-MP {
+  background: cv('shading.modal');
+  backdrop-filter: blur(12px);
+  border: none;
+  box-shadow: none;
+}
+.bodyControls_dvN-MP::after,
+.container_dvN-MP > .bodyScrollingSpacerBottom_dvN-MP:last-child::before {
+  display: none;
+}
