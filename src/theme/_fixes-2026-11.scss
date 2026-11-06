@@ -42,8 +42,16 @@
   --modal-background: #{cv('shading.modal')} !important;
 }
 
-// New settings layout: let the modal shading show through.
-.containerSidenav_XtY2mm,
-.contentPanel_XtY2mm {
-  background: transparent !important;
+// New settings layout (Nov 2026): ClearVision already shades
+// modalContentInner__F9ieB, so clear the layers painted on top of it.
+.container_dvN-MP.modal__F9ieB,
+.sidebar_cR4ic2,
+.content_3Rvb29,
+.contentHeader_3Rvb29 {
+  background: transparent;
+  backdrop-filter: none;
+}
+.fixedContent_cR4ic2::after,
+.decorationWrapper_nNq2Vb.sticky_nNq2Vb::before {
+  display: none;
 }
