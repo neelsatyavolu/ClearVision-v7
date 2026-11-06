@@ -1,0 +1,8 @@
+// Elements added by Discord's Nov 2026 update that ClearVision never styled.
+// Painted solid by default, which hides the background image.
+.container_H5ozaj, // channel sidebar container
+.wrapper_gFyPwI, // message list wrapper
+.wrapper_oITdBA, // cozy message group wrapper
+.guilds_pog62O {
+  background: transparent;
+}

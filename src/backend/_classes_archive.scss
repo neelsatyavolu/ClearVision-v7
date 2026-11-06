@@ -579,7 +579,7 @@ $classes: (
     'characterBackground': 'eb40697790f5b161-characterBackground',
     // seemingly a parent class for the whole thing
     'artwork': 'eb40697790f5b161-artwork',
-    'loggingIn': 'loggingIn_bdd070',
+    'loggingIn': 'loggingIn__dBQf7',
     'logo': 'eb40697790f5b161-logo',
     'splashBackground': '_742a49eafdce47e0-splashBackground',
 
@@ -879,12 +879,12 @@ $classes: (
     'openStageCaret': '_6b38f2a3ad7aaedf-caret',
     'eventPromptsSeparator': 'fcb27c03fa39c46e-separator',
     'buttonRow': 'fcb27c03fa39c46e-container',
-    'avControls': 'avControls_fcb27c',
+    'avControls': 'avControls_Z_HbQM',
     // mic, parent to contextMenuContainer + unmaksed
-    'leaveStageButton': 'primaryButtonColor_fcb27c',
-    'buttonWithTextInnerContainer': 'buttonWithTextInnerContainer_fcb27c',
-    'buttonWithTextIcon': 'buttonWithTextIcon_fcb27c',
-    'buttonSpacing': 'buttonSpacing_fcb27c',
+    'leaveStageButton': 'primaryButtonColor_Z_HbQM',
+    'buttonWithTextInnerContainer': 'buttonWithTextInnerContainer_Z_HbQM',
+    'buttonWithTextIcon': 'buttonWithTextIcon_Z_HbQM',
+    'buttonSpacing': 'buttonSpacing_Z_HbQM',
 
     'participants': '_9c309f82892ed3cd-participants',
     // children usually are tileContainer and tileBaseContainer
@@ -2450,9 +2450,9 @@ $classes: (
     'sectionTitle': 'f391e3680aff100a-sectionTitle',
     'selected': 'f391e3680aff100a-selected',
     'siblingSelected': 'f391e3680aff100a-siblingSelected',
-    'messageRequestCoachmark': 'messageRequestCoachmark_JCy8Yl',
+    'messageRequestCoachmark': 'messageRequestCoachmark_nMe-a6',
     'titleDivider': 'f391e3680aff100a-titleDivider',
-    'clearAllButton': 'clearAllButton_JCy8Yl',
+    'clearAllButton': 'clearAllButton_nMe-a6',
 
     'item': 'abb9ad4c358e5829-messageRequestItem',
     'active': 'abb9ad4c358e5829-active',
@@ -2718,7 +2718,7 @@ $classes: (
     // green thing when dragging
     // more drag classes - unsure about usage other than drag stuff because cant freeze in time
     'dragWrapper': 'd144f8d4075c78d6-wrapper',
-    'dragCenterTargetTooltip': 'centerTargetTooltip_d144f8',
+    'dragCenterTargetTooltip': 'centerTargetTooltip_nL08_v',
     'dragAutoPointerEvents': 'd144f8d4075c78d6-autoPointerEvents',
     'dragFolderEndWrapper': 'd144f8d4075c78d6-folderEndWrapper',
     'dragWrapperOver': 'd144f8d4075c78d6-wrapperOver',
@@ -2939,8 +2939,8 @@ $classes: (
             'addButtonIcon': '_29444ba32c7fbeab-addButtonIcon',
 
             // unknown, appears with same suffix
-            'containerUserOver': 'containerUserOver_Wx6SnQ',
-            'disableClick': 'disableClick_Wx6SnQ',
+            'containerUserOver': 'containerUserOver_a08117',
+            'disableClick': 'disableClick_a08117',
             'dismissButton': '_29444ba32c7fbeab-dismissButton',
             'dismiss': '_29444ba32c7fbeab-dismiss',
             'voiceChannelsButtonRefresh': '_29444ba32c7fbeab-refreshVoiceChannelsButton',
@@ -3262,14 +3262,14 @@ $classes: (
         'panelButtonContainer': '_4cd01ae64b7d5abc-panelButtonContainer',
         // buttons use #{c(sidebar server panel buttons button)}.
         // other classes that i don't know where they're used
-        'dropsBadgeWrapper': 'dropsBadgeWrapper__5dec7',
+        'dropsBadgeWrapper': 'dropsBadgeWrapper_8eCwJY',
         // likely relates to quest stuff
-        'dropsBadge': 'dropsBadge__5dec7',
+        'dropsBadge': 'dropsBadge_8eCwJY',
         'liveIndicator': '_5dec784a68542d60-liveIndicator',
         // appears as child of gameWrapper
         'sparkleContainer': '_5dec784a68542d60-sparkleContainer',
         'sparkles': '_5dec784a68542d60-sparkles',
-        'infoWithDrops': 'infoWithDrops__5dec7',
+        'infoWithDrops': 'infoWithDrops_8eCwJY',
         'channel': '_5dec784a68542d60-channel',
         'perksDemoContainer': '_5dec784a68542d60-perksDemoContainer',
         'perksDemoText': '_5dec784a68542d60-perksDemoText',
@@ -4122,8 +4122,8 @@ $classes: (
     ),
 
     'bans': (
-      'scrollerContainer': 'scrollerContainer_cdb2b0',
-      'bannedUser': 'bannedUser_cdb2b0',
+      'scrollerContainer': 'scrollerContainer_zS9TPG',
+      'bannedUser': 'bannedUser_zS9TPG',
     ),
 
     'automod': (
@@ -4472,10 +4472,10 @@ $classes: (
       'searchable': 'a16aea1526925c2c-searchable',
       'searchInput': 'a16aea1526925c2c-searchInput',
       'editing': 'a16aea1526925c2c-editing',
-      'label': 'label_f6639d',
+      'label': 'label_uFkqU2',
       'selectPositionTop': 'selectPositionTop_uFkqU2',
       'disabled': 'a16aea1526925c2c-disabled',
-      'hidden': 'hidden_f6639d',
+      'hidden': 'hidden_uFkqU2',
       'iconsContainer': 'a16aea1526925c2c-iconsContainer',
       'iconsCenter': 'iconsCenter_uFkqU2',
       'placeholder': 'a16aea1526925c2c-placeholder',
@@ -4487,7 +4487,7 @@ $classes: (
       'prefix': 'a16aea1526925c2c-prefix',
       'suffix': 'a16aea1526925c2c-suffix',
       'content': 'a16aea1526925c2c-content',
-      'optionPillWrapper': 'optionPillWrapper_f6639d',
+      'optionPillWrapper': 'optionPillWrapper_uFkqU2',
       'noScrollbar': 'a16aea1526925c2c-noScrollbar',
       'multiSelectCheck': 'multiSelectCheck_uFkqU2',
     ),
@@ -4515,7 +4515,7 @@ $classes: (
         'picker': 'c0e32c5cffed3d9f-emojiPicker',
 
         'header': 'c0e32c5cffed3d9f-header',
-        'searchBar': 'searchBar_iar92T',
+        'searchBar': 'searchBar_-sZhZn',
         'skinSelector': 'c0e32c5cffed3d9f-diversitySelector',
         'skinSelectorButton': 'a45a2a5d0f4caddc-diversitySelectorButton',
         'skinSelectorImage': 'a45a2a5d0f4caddc-diversityEmojiItemImage',
@@ -4592,7 +4592,7 @@ $classes: (
         'container': 'fed6d32841cc2da2-container',
         // has ID on it
         'header': 'fed6d32841cc2da2-header',
-        'searchBar': 'searchBar_fed6d3',
+        'searchBar': 'searchBar_3-5WQ7',
         'content': 'fed6d32841cc2da2-content',
         'scroller': 'd02962a38047ac3c-container',
         'resultPlaceholder': '_2dc39186a9b98da4-placeholder',
@@ -4726,7 +4726,7 @@ $classes: (
         'container': '_614244fbcb264b94-sectionContainer',
         'header': '_614244fbcb264b94-sectionHeader',
         // class as [aria-expanded="true"|"false"]
-        'notFirstSection': 'notFirstSectionHeader__61424',
+        'notFirstSection': 'notFirstSectionHeader_-SUGNi',
         'content': '_614244fbcb264b94-sectionHeaderContent',
         'title': '_614244fbcb264b94-sectionTitle',
         'icon': '_614244fbcb264b94-headerIcon',
@@ -4736,44 +4736,44 @@ $classes: (
         'row': '_614244fbcb264b94-soundRow',
         'button': (
           'wrapper': '_9be63f0b86033228-soundButtonWrapper',
-          'button': '_9be63f0b86033228-soundButton' 'soundButtonRefresh__9be63',
-          'interactive': '_9be63f0b86033228-soundButtonInteractive' 'soundButtonInteractiveRefresh__9be63',
+          'button': '_9be63f0b86033228-soundButton' 'soundButtonRefresh_N99eHz',
+          'interactive': '_9be63f0b86033228-soundButtonInteractive' 'soundButtonInteractiveRefresh_N99eHz',
           // :hover on this to show overlay
           'focused': '_9be63f0b86033228-focused',
           // arrow keys to navigate work
           'hoverActiveBackground': '_9be63f0b86033228-hoverActiveBackground',
           // voice & video choose entrance sound
-          'name': '_9be63f0b86033228-soundName' 'soundNameRefresh__9be63',
+          'name': '_9be63f0b86033228-soundName' 'soundNameRefresh_N99eHz',
 
           'overlay': '_9be63f0b86033228-buttonOverlay',
           'overlayBackground': '_9be63f0b86033228-buttonOverlayBackground',
           // never appears in refresh
-          'overlayActions': '_9be63f0b86033228-buttonOverlayActions' 'buttonOverlayActionsRefresh__9be63',
+          'overlayActions': '_9be63f0b86033228-buttonOverlayActions' 'buttonOverlayActionsRefresh_N99eHz',
           'absoluteFill': '_9be63f0b86033228-absoluteFill',
           // position absolute; top,left,right,bottom 0
         ),
-        'primaryIcon': '_9be63f0b86033228-primaryIcon' 'primaryIconRefresh__9be63',
+        'primaryIcon': '_9be63f0b86033228-primaryIcon' 'primaryIconRefresh_N99eHz',
         // only on refresh for nitro locked
         'lockIcon': '_9be63f0b86033228-lockIcon',
         // only on refresh for nitro locked without emoji
         'secondary': (
           // action buttons. "play", "favourite" etc
-          'button': '_9be63f0b86033228-secondaryButton' 'secondaryButtonRefresh__9be63',
+          'button': '_9be63f0b86033228-secondaryButton' 'secondaryButtonRefresh_N99eHz',
           'icon': '_9be63f0b86033228-secondaryIcon',
           'favourite': '_9be63f0b86033228-favoriteIconFavorite',
           // only shows up when sound is favourited
         ),
         'animated': '_9be63f0b86033228-animated',
         'playing': '_9be63f0b86033228-playing',
-        'previewing': 'previewing__9be63',
-        'info': '_9be63f0b86033228-soundInfo' 'soundInfoRefresh__9be63',
+        'previewing': 'previewing_N99eHz',
+        'info': '_9be63f0b86033228-soundInfo' 'soundInfoRefresh_N99eHz',
         'emoji': (
           'hasEmoji': '_9be63f0b86033228-hasEmoji',
-          'circle': 'emojiCircle__9be63',
+          'circle': 'emojiCircle_N99eHz',
           'emoji': '_9be63f0b86033228-emoji',
         ),
         'add': (
-          'button': 'soundAddButton__58c6c' 'soundAddButtonRefresh__58c6c',
+          'button': 'soundAddButton_J7VcHX' 'soundAddButtonRefresh__58c6c',
           'info': 'soundAddInfoRefresh__58c6c',
           // only appears in refresh
           'icon': 'soundAddIcon__58c6c' 'soundAddIconRefresh__58c6c',
@@ -4801,7 +4801,7 @@ $classes: (
         // on section/header. has background
         'rowLocked': '_614244fbcb264b94-soundRowNitroLocked',
         // on row. has background like section/header
-        'premiumDisabled': 'premiumDisabledRefresh__9be63',
+        'premiumDisabled': 'premiumDisabledRefresh_N99eHz',
 
         // only appears in refresh. on button. hover this also gives emojiCircle background gradient
         'upsell': (
@@ -6230,7 +6230,7 @@ $classes: (
 
           // src/??/serverSettings.scss ; as "onboardingEnterRoles" src/??/onboarding.scss
           // unknown areas or i couldn't be bothered sorting.
-          'membersChannelContainer': 'mainTableContainer_mg3aTC',
+          'membersChannelContainer': 'mainTableContainer_dd2627',
 
           // below: known to not exist elsewhere in this file
           'libraryScroller': '_4a84a2c88d373bef-scroller',
@@ -6289,7 +6289,7 @@ $classes: (
           'emptyActiveNowText': '_7e549558f336cddb-emptyText',
           'promotedQuestPill': '_1d8687673afa90a1-promotedTagBackground',
           'quickReactButtonFocused': 'f563df886a7377be-focused',
-          'quickReactPremiumUpsell': 'premiumUpsell_6c9R7U',
+          'quickReactPremiumUpsell': 'premiumUpsell_aae531',
           'messagesPopoutThread': '_7d15e06278d36a38-forumPost',
           'inboxChattingAbout': '_6fddf2ee3574a18a-calloutContainer',
           'channelThreadPopoutRow': '_76f047ded9fef6d4-row',
