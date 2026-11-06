@@ -43,8 +43,7 @@
 }
 
 // New settings layout (Nov 2026): ClearVision already shades
-// modalContentInner__F9ieB, so clear the layers painted on top of it.
-.container_dvN-MP.modal__F9ieB,
+// the outer modal (container_dvN-MP), so clear the layers painted on top of it.
 .sidebar_cR4ic2,
 .content_3Rvb29,
 .contentHeader_3Rvb29 {
