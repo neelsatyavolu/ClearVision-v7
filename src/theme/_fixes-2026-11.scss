@@ -37,8 +37,10 @@
 .theme-midnight,
 .theme-light {
   --background-surface-high: #{cv('shading.popout')} !important;
-  --background-surface-higher: #{cv('shading.popout')} !important;
-  --background-surface-highest: #{cv('shading.popout')} !important;
+  // higher/highest sit on top of a surface-high layer: leave them clear so
+  // shading doesn't stack and darken popouts
+  --background-surface-higher: transparent !important;
+  --background-surface-highest: transparent !important;
   --modal-background: #{cv('shading.modal')} !important;
 }
 
