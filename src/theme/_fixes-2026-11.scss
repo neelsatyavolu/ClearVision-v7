@@ -56,3 +56,13 @@
 .decorationWrapper_nNq2Vb.sticky_nNq2Vb::before {
   display: none;
 }
+
+// Activities launcher: panel gets popout shading; cards inside get card
+// shading instead of Discord's solid base colors.
+.contentWrapper_Z0Mo0M {
+  --background-base-low: #{cv('shading.card')};
+  --background-base-lower: transparent;
+  --background-base-lowest: #{cv('shading.card')};
+  background: cv('shading.popout') !important;
+  backdrop-filter: blur(12px);
+}
