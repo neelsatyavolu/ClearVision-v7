@@ -66,3 +66,20 @@
   background: cv('shading.popout') !important;
   backdrop-filter: blur(12px);
 }
+
+// Shop page: new wrapper paints an opaque base colour
+.shopContainer_XBXDcd {
+  background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.4)) !important;
+  --background-base-low: transparent;
+  --background-base-lower: transparent;
+  --background-base-lowest: transparent;
+  --background-surface-high: #{cv('shading.card')};
+}
+
+// Expression picker (GIF / sticker / emoji): inner panels use base colours
+.contentWrapper_58b0l2 {
+  --background-base-low: transparent;
+  --background-base-lower: transparent;
+  --background-base-lowest: transparent;
+  --background-surface-high: transparent;
+}
